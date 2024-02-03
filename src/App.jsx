@@ -38,13 +38,9 @@ const App = () => {
       <div className="pt-20 mb-20">
         <Contactus />
       </div>
-      <div className="pt-20 ">
+      <div className="pt-20 mb-8 ">
         <Footer />
       </div>
-
-      <br />
-      <br />
-      <br />
     </div>
   );
 };
