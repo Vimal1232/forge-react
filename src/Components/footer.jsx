@@ -4,7 +4,7 @@ import { logo } from "../assets";
 const Footer = () => (
   <footer>
     <div className="px-20 max-sm:px-5">
-      <div className=" bg-footerc rounded-[28px] p-12 flex justify-between items-center ">
+      <div className=" bg-footerc rounded-[28px] p-12 flex justify-between items-center max-sm:flex-col max-sm:gap-5 ">
         <div>
           <a href="#home">
             <img
@@ -15,7 +15,7 @@ const Footer = () => (
           </a>
         </div>
         <div className=" ">
-          <ul className="flex gap-8 items-center justify-center">
+          <ul className="flex gap-8 items-center justify-center max-sm:flex-col">
             <li className="text-secondary text-[16px] font-Ttravelm hover-underline-animation">
               <a href="#Aboutus">
                 <span>About Us</span>

@@ -42,11 +42,13 @@ const Home = () => (
         </p>
       </div>
       <div>
-        <button data-aos="fade-up" data-aos-duration="1500">
-          <p className=" text-textblack font-TTravelb text-[16px] py-[20px] px-[28px] text-center bg-primary rounded-[12px] hover:bg-primaryhover duration-150 ease-in">
-            Book a Free Consultation
-          </p>
-        </button>
+        <a href="#contact">
+          <button data-aos="fade-up" data-aos-duration="1500">
+            <p className=" text-textblack font-TTravelb text-[16px] py-[20px] px-[28px] text-center bg-primary rounded-[12px] hover:bg-primaryhover duration-150 ease-in">
+              Book a Free Consultation
+            </p>
+          </button>
+        </a>
       </div>
     </div>
   </section>
