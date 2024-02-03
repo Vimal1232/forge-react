@@ -5,7 +5,7 @@ import Services from "./Services";
 import HWW from "./HWW";
 import Testi from "./Testi";
 import Faq from "./Faq";
-import { Accordion } from "./accordian";
+import { Accordion } from "./Accordian";
 import Contactus from "./contactus";
 import Footer from "./footer";
 
